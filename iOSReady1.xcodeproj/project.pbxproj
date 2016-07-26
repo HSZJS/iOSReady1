@@ -47,6 +47,7 @@
 		9BBD33E6E7B4A460B37FFFB1 /* Pods-iOSReady1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReady1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReady1UITests/Pods-iOSReady1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D69A8BBBD8811AF4F28D1CF9 /* Pods-iOSReady1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReady1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReady1Tests/Pods-iOSReady1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReady1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F385C0B21D475309005951BE /* DataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataType.h; sourceTree = "<group>"; };
 		F3AA6D5A1D462A9E0033D88B /* iOSReady1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReady1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA6D5E1D462A9E0033D88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3AA6D601D462A9E0033D88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +151,7 @@
 				F3AA6D6B1D462A9E0033D88B /* LaunchScreen.storyboard */,
 				F3AA6D6E1D462A9E0033D88B /* Info.plist */,
 				F3AA6D5D1D462A9E0033D88B /* Supporting Files */,
+				F385C0B21D475309005951BE /* DataType.h */,
 			);
 			path = iOSReady1;
 			sourceTree = "<group>";
