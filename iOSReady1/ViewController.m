@@ -9,6 +9,8 @@
 
 #import "ViewController.h"
 #import <AFNetworking.h>
+#import "CocoaFoundationKit.h"
+#import "cocoaFoundationKitClass.h"
 @interface ViewController ()
 
 @end
@@ -23,8 +25,11 @@ typedef void (^AFNErrorBlock)(NSError *error); // 访问失败block
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
     [self downLoad];
-   //
-        
+   //cocoaFoundationKit 使用方法
+    cocoaFoundationKitClass * cocoaEqualString = [[cocoaFoundationKitClass alloc]init];
+    [cocoaEqualString equalString];
+    
+    
     
 }
 - (void)downLoad{
