@@ -48,6 +48,7 @@
 		D69A8BBBD8811AF4F28D1CF9 /* Pods-iOSReady1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReady1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReady1Tests/Pods-iOSReady1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReady1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F385C0B21D475309005951BE /* DataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataType.h; sourceTree = "<group>"; };
+		F385C0B31D475570005951BE /* Overview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Overview.h; sourceTree = "<group>"; };
 		F3AA6D5A1D462A9E0033D88B /* iOSReady1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReady1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA6D5E1D462A9E0033D88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3AA6D601D462A9E0033D88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 		F3AA6D511D462A9E0033D88B = {
 			isa = PBXGroup;
 			children = (
+				F385C0B31D475570005951BE /* Overview.h */,
 				F3AA6D5C1D462A9E0033D88B /* iOSReady1 */,
 				F3AA6D761D462A9E0033D88B /* iOSReady1Tests */,
 				F3AA6D811D462A9E0033D88B /* iOSReady1UITests */,
