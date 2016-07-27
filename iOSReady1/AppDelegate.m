@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "SeViewController.h"
+#import "ThiViewController.h"
+#import "FourViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"%@",NSHomeDirectory());
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];//获取屏幕大小
+    //a.初始化一个tabBar控制器
+        UITabBarController *tb=[[UITabBarController alloc]init];
+    //设置控制器为Window的根控制器
+     self.window.rootViewController=tb;
+    //创建子控制器
+    ViewController * v1 = [[ViewController alloc]init];
+    
+    v1.tabBarItem.title=@"test1";
+    v1.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+   
+    SeViewController * smvc = [[SeViewController alloc]init];
+    
+    smvc.tabBarItem.title=@"test1";
+    smvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+    ThiViewController * mcvc = [[ThiViewController alloc]init];
+    
+    mcvc.tabBarItem.title=@"test1";
+    mcvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+    FourViewController * sbvc = [[FourViewController alloc]init];
+    
+    sbvc.tabBarItem.title=@"test1";
+    sbvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+    
+    tb.viewControllers = @[v1,smvc,mcvc,sbvc];
+    [self.window makeKeyAndVisible];
+//    self.window.backgroundColor = [UIColor greenColor];//背景颜色
+//    //创建一个标签栏视图控制器
+//    ReadyTabBarViewController *NJtvc = [[ReadyTabBarViewController alloc]init];
+//    //将该视图控制器作为window的根视图控制器
+//    self.window.rootViewController = NJtvc ;
     return YES;
 }
 

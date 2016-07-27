@@ -12,6 +12,9 @@
 		3F229DAE5A6FC64E74B60ABC /* libPods-iOSReady1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */; };
 		F385C0B61D476B46005951BE /* CocoaFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F385C0B51D476B46005951BE /* CocoaFoundationKit.m */; };
 		F385C0B91D476D44005951BE /* cocoaFoundationKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F385C0B81D476D44005951BE /* cocoaFoundationKitClass.m */; };
+		F3A1312F1D489C2B0067CF23 /* SeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1312E1D489C2B0067CF23 /* SeViewController.m */; };
+		F3A131321D489C390067CF23 /* ThiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A131311D489C390067CF23 /* ThiViewController.m */; };
+		F3A131351D489C460067CF23 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A131341D489C460067CF23 /* FourViewController.m */; };
 		F3AA6D5F1D462A9E0033D88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D5E1D462A9E0033D88B /* main.m */; };
 		F3AA6D621D462A9E0033D88B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D611D462A9E0033D88B /* AppDelegate.m */; };
 		F3AA6D651D462A9E0033D88B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D641D462A9E0033D88B /* ViewController.m */; };
@@ -55,6 +58,12 @@
 		F385C0B51D476B46005951BE /* CocoaFoundationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaFoundationKit.m; sourceTree = "<group>"; };
 		F385C0B71D476D44005951BE /* cocoaFoundationKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoaFoundationKitClass.h; sourceTree = "<group>"; };
 		F385C0B81D476D44005951BE /* cocoaFoundationKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoaFoundationKitClass.m; sourceTree = "<group>"; };
+		F3A1312D1D489C2B0067CF23 /* SeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeViewController.h; sourceTree = "<group>"; };
+		F3A1312E1D489C2B0067CF23 /* SeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeViewController.m; sourceTree = "<group>"; };
+		F3A131301D489C390067CF23 /* ThiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThiViewController.h; sourceTree = "<group>"; };
+		F3A131311D489C390067CF23 /* ThiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThiViewController.m; sourceTree = "<group>"; };
+		F3A131331D489C460067CF23 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		F3A131341D489C460067CF23 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		F3AA6D5A1D462A9E0033D88B /* iOSReady1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReady1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA6D5E1D462A9E0033D88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3AA6D601D462A9E0033D88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +173,12 @@
 				F385C0B51D476B46005951BE /* CocoaFoundationKit.m */,
 				F385C0B71D476D44005951BE /* cocoaFoundationKitClass.h */,
 				F385C0B81D476D44005951BE /* cocoaFoundationKitClass.m */,
+				F3A1312D1D489C2B0067CF23 /* SeViewController.h */,
+				F3A1312E1D489C2B0067CF23 /* SeViewController.m */,
+				F3A131301D489C390067CF23 /* ThiViewController.h */,
+				F3A131311D489C390067CF23 /* ThiViewController.m */,
+				F3A131331D489C460067CF23 /* FourViewController.h */,
+				F3A131341D489C460067CF23 /* FourViewController.m */,
 			);
 			path = iOSReady1;
 			sourceTree = "<group>";
@@ -459,6 +474,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F385C0B91D476D44005951BE /* cocoaFoundationKitClass.m in Sources */,
+				F3A1312F1D489C2B0067CF23 /* SeViewController.m in Sources */,
+				F3A131321D489C390067CF23 /* ThiViewController.m in Sources */,
+				F3A131351D489C460067CF23 /* FourViewController.m in Sources */,
 				F3AA6D651D462A9E0033D88B /* ViewController.m in Sources */,
 				F3AA6D621D462A9E0033D88B /* AppDelegate.m in Sources */,
 				F3AA6D5F1D462A9E0033D88B /* main.m in Sources */,

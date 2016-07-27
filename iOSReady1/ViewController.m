@@ -51,6 +51,23 @@ typedef void (^AFNErrorBlock)(NSError *error); // 访问失败block
         //将size设置成(300,300)
         make.size.mas_equalTo(CGSizeMake(300, 300));
     }];
+    UIView *tv = [UIView new];
+    tv.backgroundColor = [UIColor brownColor];
+    [self.view addSubview:tv];
+    [tv mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(sv).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
+        
+        /* 等价于
+         make.top.equalTo(sv).with.offset(10);
+         make.left.equalTo(sv).with.offset(10);
+         make.bottom.equalTo(sv).with.offset(-10);
+         make.right.equalTo(sv).with.offset(-10);
+         */
+        
+        /* 也等价于
+         make.top.left.bottom.and.right.equalTo(sv).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
+         */
+    }];
     
 }
 //configureDatasourse
