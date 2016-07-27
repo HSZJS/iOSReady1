@@ -20,4 +20,5 @@ target 'iOSReady1' do
 pod 'AFNetworking', '~> 3.1.0'
 pod 'XMPPFramework', '~> 3.6.6'
 pod 'Masonry', '~> 1.0.1'
+pod 'HDTableViewMaker', '~> 0.0.5'
 end

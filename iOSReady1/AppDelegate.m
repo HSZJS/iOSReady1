@@ -29,20 +29,20 @@
     //创建子控制器
     ViewController * v1 = [[ViewController alloc]init];
     
-    v1.tabBarItem.title=@"test1";
+    v1.tabBarItem.title=@"视图一";
     v1.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
    
     SeViewController * smvc = [[SeViewController alloc]init];
     
-    smvc.tabBarItem.title=@"test1";
+    smvc.tabBarItem.title=@"视图二";
     smvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
     ThiViewController * mcvc = [[ThiViewController alloc]init];
     
-    mcvc.tabBarItem.title=@"test1";
+    mcvc.tabBarItem.title=@"视图三";
     mcvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
     FourViewController * sbvc = [[FourViewController alloc]init];
     
-    sbvc.tabBarItem.title=@"test1";
+    sbvc.tabBarItem.title=@"视图四";
     sbvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
     
     tb.viewControllers = @[v1,smvc,mcvc,sbvc];
