@@ -17,7 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor redColor];
+    //创建一个item
+    UIBarButtonItem * editButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(editButtonItemAction:)];
+    //将item放到导航的右视图item上
+    self.navigationItem.rightBarButtonItem = editButtonItem;
+    NSLog(@"EDITBUTTON");
 }
 
 - (void)didReceiveMemoryWarning {

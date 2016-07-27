@@ -45,7 +45,12 @@
     sbvc.tabBarItem.title=@"视图四";
     sbvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
     
-    tb.viewControllers = @[v1,smvc,mcvc,sbvc];
+    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:sbvc];
+    nvc.tabBarItem.title=@"视图四";
+    nvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+
+    
+    tb.viewControllers = @[v1,smvc,mcvc,nvc];
     [self.window makeKeyAndVisible];
 //    self.window.backgroundColor = [UIColor greenColor];//背景颜色
 //    //创建一个标签栏视图控制器

@@ -15,6 +15,8 @@
 		F3A1312F1D489C2B0067CF23 /* SeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1312E1D489C2B0067CF23 /* SeViewController.m */; };
 		F3A131321D489C390067CF23 /* ThiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A131311D489C390067CF23 /* ThiViewController.m */; };
 		F3A131351D489C460067CF23 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A131341D489C460067CF23 /* FourViewController.m */; };
+		F3A1313E1D48C5920067CF23 /* SZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1313C1D48C5920067CF23 /* SZTableViewCell.m */; };
+		F3A1313F1D48C5920067CF23 /* SZTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A1313D1D48C5920067CF23 /* SZTableViewCell.xib */; };
 		F3AA6D5F1D462A9E0033D88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D5E1D462A9E0033D88B /* main.m */; };
 		F3AA6D621D462A9E0033D88B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D611D462A9E0033D88B /* AppDelegate.m */; };
 		F3AA6D651D462A9E0033D88B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D641D462A9E0033D88B /* ViewController.m */; };
@@ -64,6 +66,9 @@
 		F3A131311D489C390067CF23 /* ThiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThiViewController.m; sourceTree = "<group>"; };
 		F3A131331D489C460067CF23 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		F3A131341D489C460067CF23 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		F3A1313B1D48C5920067CF23 /* SZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTableViewCell.h; sourceTree = "<group>"; };
+		F3A1313C1D48C5920067CF23 /* SZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTableViewCell.m; sourceTree = "<group>"; };
+		F3A1313D1D48C5920067CF23 /* SZTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZTableViewCell.xib; sourceTree = "<group>"; };
 		F3AA6D5A1D462A9E0033D88B /* iOSReady1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReady1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA6D5E1D462A9E0033D88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3AA6D601D462A9E0033D88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,9 +145,20 @@
 			name = img;
 			sourceTree = "<group>";
 		};
+		F3A131371D48C52B0067CF23 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1313B1D48C5920067CF23 /* SZTableViewCell.h */,
+				F3A1313C1D48C5920067CF23 /* SZTableViewCell.m */,
+				F3A1313D1D48C5920067CF23 /* SZTableViewCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		F3AA6D511D462A9E0033D88B = {
 			isa = PBXGroup;
 			children = (
+				F3A131371D48C52B0067CF23 /* cell */,
 				F385C0B31D475570005951BE /* Overview.h */,
 				F3A131361D48A5260067CF23 /* img */,
 				F3AA6D5C1D462A9E0033D88B /* iOSReady1 */,
@@ -331,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A1313F1D48C5920067CF23 /* SZTableViewCell.xib in Resources */,
 				F3AA6D6D1D462A9E0033D88B /* LaunchScreen.storyboard in Resources */,
 				F3AA6D6A1D462A9E0033D88B /* Assets.xcassets in Resources */,
 				F3AA6D681D462A9E0033D88B /* Main.storyboard in Resources */,
@@ -485,6 +502,7 @@
 				F3A1312F1D489C2B0067CF23 /* SeViewController.m in Sources */,
 				F3A131321D489C390067CF23 /* ThiViewController.m in Sources */,
 				F3A131351D489C460067CF23 /* FourViewController.m in Sources */,
+				F3A1313E1D48C5920067CF23 /* SZTableViewCell.m in Sources */,
 				F3AA6D651D462A9E0033D88B /* ViewController.m in Sources */,
 				F3AA6D621D462A9E0033D88B /* AppDelegate.m in Sources */,
 				F3AA6D5F1D462A9E0033D88B /* main.m in Sources */,
