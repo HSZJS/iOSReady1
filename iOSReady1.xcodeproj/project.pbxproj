@@ -133,10 +133,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F3A131361D48A5260067CF23 /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		F3AA6D511D462A9E0033D88B = {
 			isa = PBXGroup;
 			children = (
 				F385C0B31D475570005951BE /* Overview.h */,
+				F3A131361D48A5260067CF23 /* img */,
 				F3AA6D5C1D462A9E0033D88B /* iOSReady1 */,
 				F3AA6D761D462A9E0033D88B /* iOSReady1Tests */,
 				F3AA6D811D462A9E0033D88B /* iOSReady1UITests */,
