@@ -7,7 +7,7 @@
 //https://github.com/hongdong/HDTableViewMaker
 
 #import "FourViewController.h"
-
+#import "CellPushViewController.h"
 
 @interface FourViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -124,6 +124,12 @@
     
     return cell;
     
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"何舒展");
+    CellPushViewController * cpvc = [[CellPushViewController alloc]init];
+    [self.navigationController pushViewController:cpvc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
