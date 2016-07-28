@@ -12,8 +12,6 @@
 		3F229DAE5A6FC64E74B60ABC /* libPods-iOSReady1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */; };
 		F323D4951D49A43E0063A8EA /* 未命名.png in Resources */ = {isa = PBXBuildFile; fileRef = F323D4941D49A43E0063A8EA /* 未命名.png */; };
 		F323D4971D49A4550063A8EA /* 1_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F323D4961D49A4550063A8EA /* 1_24.jpg */; };
-		F323D4991D49A8120063A8EA /* 8836.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F323D4981D49A8120063A8EA /* 8836.jpg */; };
-		F323D49B1D49A87B0063A8EA /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F323D49A1D49A87B0063A8EA /* 1@2x.png */; };
 		F34099B11D49192400B4D768 /* HDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F34099AF1D49192400B4D768 /* HDTableViewCell.m */; };
 		F34099B21D49192400B4D768 /* HDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34099B01D49192400B4D768 /* HDTableViewCell.xib */; };
 		F34099B61D491F5E00B4D768 /* CellPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34099B41D491F5E00B4D768 /* CellPushViewController.m */; };
@@ -33,6 +31,11 @@
 		F3AA6D6D1D462A9E0033D88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AA6D6B1D462A9E0033D88B /* LaunchScreen.storyboard */; };
 		F3AA6D781D462A9E0033D88B /* iOSReady1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D771D462A9E0033D88B /* iOSReady1Tests.m */; };
 		F3AA6D831D462A9E0033D88B /* iOSReady1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D821D462A9E0033D88B /* iOSReady1UITests.m */; };
+		F3F6B9821D49F0FB00A054CA /* 8836.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3F6B9811D49F0FB00A054CA /* 8836.jpg */; };
+		F3F6B9841D49F10800A054CA /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F6B9831D49F10800A054CA /* 1@2x.png */; };
+		F3F6B9891D49F15000A054CA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F6B9871D49F15000A054CA /* LoginViewController.m */; };
+		F3F6B98E1D49F1B700A054CA /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F6B98C1D49F1B700A054CA /* IndexViewController.m */; };
+		F3F6B98F1D49F1B700A054CA /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F6B98D1D49F1B700A054CA /* IndexViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +67,6 @@
 		E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReady1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F323D4941D49A43E0063A8EA /* 未命名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未命名.png"; sourceTree = "<group>"; };
 		F323D4961D49A4550063A8EA /* 1_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_24.jpg; sourceTree = "<group>"; };
-		F323D4981D49A8120063A8EA /* 8836.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8836.jpg; path = ../8836.jpg; sourceTree = "<group>"; };
-		F323D49A1D49A87B0063A8EA /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "../../Downloads/1@2x.png"; sourceTree = "<group>"; };
 		F34099AE1D49192400B4D768 /* HDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewCell.h; sourceTree = "<group>"; };
 		F34099AF1D49192400B4D768 /* HDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewCell.m; sourceTree = "<group>"; };
 		F34099B01D49192400B4D768 /* HDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDTableViewCell.xib; sourceTree = "<group>"; };
@@ -103,6 +104,13 @@
 		F3AA6D7E1D462A9E0033D88B /* iOSReady1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSReady1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA6D821D462A9E0033D88B /* iOSReady1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSReady1UITests.m; sourceTree = "<group>"; };
 		F3AA6D841D462A9E0033D88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F6B9811D49F0FB00A054CA /* 8836.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8836.jpg; sourceTree = "<group>"; };
+		F3F6B9831D49F10800A054CA /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		F3F6B9861D49F15000A054CA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F3F6B9871D49F15000A054CA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F3F6B98B1D49F1B700A054CA /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		F3F6B98C1D49F1B700A054CA /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		F3F6B98D1D49F1B700A054CA /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +167,8 @@
 		F3A131361D48A5260067CF23 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				F323D49A1D49A87B0063A8EA /* 1@2x.png */,
-				F323D4981D49A8120063A8EA /* 8836.jpg */,
+				F3F6B9811D49F0FB00A054CA /* 8836.jpg */,
+				F3F6B9831D49F10800A054CA /* 1@2x.png */,
 				F323D4961D49A4550063A8EA /* 1_24.jpg */,
 				F323D4941D49A43E0063A8EA /* 未命名.png */,
 			);
@@ -183,6 +191,7 @@
 		F3AA6D511D462A9E0033D88B = {
 			isa = PBXGroup;
 			children = (
+				F3F6B9851D49F13900A054CA /* Login */,
 				F3A131371D48C52B0067CF23 /* cell */,
 				F385C0B31D475570005951BE /* Overview.h */,
 				F3A131361D48A5260067CF23 /* img */,
@@ -231,6 +240,9 @@
 				F34099B31D491F5E00B4D768 /* CellPushViewController.h */,
 				F34099B41D491F5E00B4D768 /* CellPushViewController.m */,
 				F34099B51D491F5E00B4D768 /* CellPushViewController.xib */,
+				F3F6B98B1D49F1B700A054CA /* IndexViewController.h */,
+				F3F6B98C1D49F1B700A054CA /* IndexViewController.m */,
+				F3F6B98D1D49F1B700A054CA /* IndexViewController.xib */,
 			);
 			path = iOSReady1;
 			sourceTree = "<group>";
@@ -259,6 +271,15 @@
 				F3AA6D841D462A9E0033D88B /* Info.plist */,
 			);
 			path = iOSReady1UITests;
+			sourceTree = "<group>";
+		};
+		F3F6B9851D49F13900A054CA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F3F6B9861D49F15000A054CA /* LoginViewController.h */,
+				F3F6B9871D49F15000A054CA /* LoginViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,14 +398,15 @@
 			files = (
 				F34099B71D491F5E00B4D768 /* CellPushViewController.xib in Resources */,
 				F3A1313F1D48C5920067CF23 /* SZTableViewCell.xib in Resources */,
-				F323D4991D49A8120063A8EA /* 8836.jpg in Resources */,
+				F3F6B98F1D49F1B700A054CA /* IndexViewController.xib in Resources */,
+				F3F6B9821D49F0FB00A054CA /* 8836.jpg in Resources */,
 				F3AA6D6D1D462A9E0033D88B /* LaunchScreen.storyboard in Resources */,
 				F3AA6D6A1D462A9E0033D88B /* Assets.xcassets in Resources */,
+				F3F6B9841D49F10800A054CA /* 1@2x.png in Resources */,
 				F34099B21D49192400B4D768 /* HDTableViewCell.xib in Resources */,
 				F323D4971D49A4550063A8EA /* 1_24.jpg in Resources */,
 				F3AA6D681D462A9E0033D88B /* Main.storyboard in Resources */,
 				F323D4951D49A43E0063A8EA /* 未命名.png in Resources */,
-				F323D49B1D49A87B0063A8EA /* 1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,8 +562,10 @@
 				F3AA6D651D462A9E0033D88B /* ViewController.m in Sources */,
 				F3AA6D621D462A9E0033D88B /* AppDelegate.m in Sources */,
 				F34099B61D491F5E00B4D768 /* CellPushViewController.m in Sources */,
+				F3F6B9891D49F15000A054CA /* LoginViewController.m in Sources */,
 				F3AA6D5F1D462A9E0033D88B /* main.m in Sources */,
 				F385C0B61D476B46005951BE /* CocoaFoundationKit.m in Sources */,
+				F3F6B98E1D49F1B700A054CA /* IndexViewController.m in Sources */,
 				F34099B11D49192400B4D768 /* HDTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

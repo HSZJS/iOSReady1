@@ -30,6 +30,7 @@ PODS:
     - MJRefresh
     - UITableView+FDTemplateLayoutCell
   - Masonry (1.0.1)
+  - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - UITableView+FDTemplateLayoutCell (1.4)
   - XMPPFramework (3.6.6):
@@ -179,6 +180,7 @@ DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - HDTableViewMaker (~> 0.0.5)
   - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 1.0.0)
   - XMPPFramework (~> 3.6.6)
 
 SPEC CHECKSUMS:
@@ -187,10 +189,11 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
   HDTableViewMaker: be7ed97d3b721a3932bf85e390f3fd6ef5a60008
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   XMPPFramework: b06c210b0b71c08aa41a646bffd2021fa43bb43b
 
-PODFILE CHECKSUM: 12b4faaebede4443641e4f8159376b992a0325f5
+PODFILE CHECKSUM: fa584d1107575b41c4985748616dac08b6943de5
 
 COCOAPODS: 1.0.1
