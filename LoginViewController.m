@@ -62,6 +62,7 @@
     //添加倒计时按钮
     _daojishi = [UIButton new];
     _daojishi.backgroundColor = [UIColor blackColor];
+    [_daojishi setTitle:@"倒计时按钮" forState:nil];
     [self.view addSubview:_daojishi];
     [_daojishi mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(CGSizeMake(100, 50));
@@ -106,7 +107,7 @@
 -(void)miao
 {
     if (i==0) {
-        NSLog(@"从先登录");
+        [_daojishi setTitle:@"请重新登录" forState:nil];
     }
     else
     {
