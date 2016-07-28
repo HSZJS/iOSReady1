@@ -13,6 +13,8 @@
 {
     UITableView * _tableView;
     NSMutableArray * _dataSource;
+    NSArray *filterData;
+    UISearchDisplayController *searchDisplayController;
 }
 
 @end
@@ -31,10 +33,22 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,64,self.view.bounds.size.width,self.view.bounds.size.height) style:UITableViewStylePlain];
+    //收索栏
+    UISearchBar * searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
+    searchBar.placeholder = @"搜索";
+    
     
     _tableView.delegate = self;
     _tableView.dataSource = self;
+    _tableView.tableHeaderView = searchBar;
+    //用searchbar初始化SearchDisplayController
+    //并把searchDisplayController和当前controller关联起来
+    searchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self];
     
+    // searchResultsDataSource 就是 UITableViewDataSource
+    searchDisplayController.searchResultsDataSource = self;
+    // searchResultsDelegate 就是 UITableViewDelegate
+    searchDisplayController.searchResultsDelegate = self;
     //在这里去注册一个tableView在显示时,需要用到的cell类.
     //通过这种方式来实现的单元格,会有相应的方法,来自动实现单元格的利用
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
@@ -109,7 +123,16 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _dataSource.count;
+    if ((tableView = _tableView)) {
+        return _dataSource.count;
+    }else
+    {
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%d",searchDisplayController.searchBar.text];
+        filterData =  [[NSArray alloc] initWithArray:[_dataSource filteredArrayUsingPredicate:predicate]];
+        return _dataSource.count;
+    }
+  
+    
 }
 
 
@@ -120,7 +143,16 @@
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     
-    cell.textLabel.text = [_dataSource objectAtIndex:indexPath.row];
+//    cell.textLabel.text = [_dataSource objectAtIndex:indexPath.row];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    
+    if (tableView == _tableView) {
+        cell.textLabel.text = _dataSource[indexPath.row];
+    }else{
+        cell.textLabel.text = filterData[indexPath.row];
+    }
     
     return cell;
     

@@ -10,6 +10,10 @@
 		235BC8AD0B9FE4D2D50313C4 /* libPods-iOSReady1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7B9F3C0B00AC36F3761110 /* libPods-iOSReady1.a */; };
 		2CA84501F333F8BA3DFA37D3 /* libPods-iOSReady1UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56911831DC521105C003FF /* libPods-iOSReady1UITests.a */; };
 		3F229DAE5A6FC64E74B60ABC /* libPods-iOSReady1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */; };
+		F323D4951D49A43E0063A8EA /* 未命名.png in Resources */ = {isa = PBXBuildFile; fileRef = F323D4941D49A43E0063A8EA /* 未命名.png */; };
+		F323D4971D49A4550063A8EA /* 1_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F323D4961D49A4550063A8EA /* 1_24.jpg */; };
+		F323D4991D49A8120063A8EA /* 8836.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F323D4981D49A8120063A8EA /* 8836.jpg */; };
+		F323D49B1D49A87B0063A8EA /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F323D49A1D49A87B0063A8EA /* 1@2x.png */; };
 		F34099B11D49192400B4D768 /* HDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F34099AF1D49192400B4D768 /* HDTableViewCell.m */; };
 		F34099B21D49192400B4D768 /* HDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34099B01D49192400B4D768 /* HDTableViewCell.xib */; };
 		F34099B61D491F5E00B4D768 /* CellPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34099B41D491F5E00B4D768 /* CellPushViewController.m */; };
@@ -58,6 +62,10 @@
 		9BBD33E6E7B4A460B37FFFB1 /* Pods-iOSReady1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReady1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReady1UITests/Pods-iOSReady1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D69A8BBBD8811AF4F28D1CF9 /* Pods-iOSReady1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSReady1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSReady1Tests/Pods-iOSReady1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E452D92FD1AA5AA3E1BF20AC /* libPods-iOSReady1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSReady1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F323D4941D49A43E0063A8EA /* 未命名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未命名.png"; sourceTree = "<group>"; };
+		F323D4961D49A4550063A8EA /* 1_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_24.jpg; sourceTree = "<group>"; };
+		F323D4981D49A8120063A8EA /* 8836.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8836.jpg; path = ../8836.jpg; sourceTree = "<group>"; };
+		F323D49A1D49A87B0063A8EA /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "../../Downloads/1@2x.png"; sourceTree = "<group>"; };
 		F34099AE1D49192400B4D768 /* HDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewCell.h; sourceTree = "<group>"; };
 		F34099AF1D49192400B4D768 /* HDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewCell.m; sourceTree = "<group>"; };
 		F34099B01D49192400B4D768 /* HDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDTableViewCell.xib; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 		F3A131361D48A5260067CF23 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				F323D49A1D49A87B0063A8EA /* 1@2x.png */,
+				F323D4981D49A8120063A8EA /* 8836.jpg */,
+				F323D4961D49A4550063A8EA /* 1_24.jpg */,
+				F323D4941D49A43E0063A8EA /* 未命名.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -365,10 +377,14 @@
 			files = (
 				F34099B71D491F5E00B4D768 /* CellPushViewController.xib in Resources */,
 				F3A1313F1D48C5920067CF23 /* SZTableViewCell.xib in Resources */,
+				F323D4991D49A8120063A8EA /* 8836.jpg in Resources */,
 				F3AA6D6D1D462A9E0033D88B /* LaunchScreen.storyboard in Resources */,
 				F3AA6D6A1D462A9E0033D88B /* Assets.xcassets in Resources */,
 				F34099B21D49192400B4D768 /* HDTableViewCell.xib in Resources */,
+				F323D4971D49A4550063A8EA /* 1_24.jpg in Resources */,
 				F3AA6D681D462A9E0033D88B /* Main.storyboard in Resources */,
+				F323D4951D49A43E0063A8EA /* 未命名.png in Resources */,
+				F323D49B1D49A87B0063A8EA /* 1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
