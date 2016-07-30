@@ -32,18 +32,16 @@
     smvc.tabBarItem.title=@"视图二";
     smvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
     ThiViewController * mcvc = [[ThiViewController alloc]init];
-    
-    mcvc.tabBarItem.title=@"视图三";
-    mcvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+
+    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:mcvc];
+    nvc.title = @"订单";
     FourViewController * sbvc = [[FourViewController alloc]init];
     
-    sbvc.tabBarItem.title=@"视图四";
-    sbvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
-    
-    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:sbvc];
-    nvc.tabBarItem.title=@"视图四";
-    nvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
-    self.viewControllers=@[v1,smvc,mcvc,nvc];
+  
+    UINavigationController * nvc2 = [[UINavigationController alloc]initWithRootViewController:sbvc];
+    nvc2.tabBarItem.title=@"视图四";
+    nvc2.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+    self.viewControllers=@[v1,smvc,nvc,nvc2];
    
     
 

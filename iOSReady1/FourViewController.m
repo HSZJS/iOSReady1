@@ -22,6 +22,7 @@
 @implementation FourViewController
 
 - (void)viewDidLoad {
+    self.title = @"雪花集合";
     
     [super viewDidLoad];
     [self ConfigUI];

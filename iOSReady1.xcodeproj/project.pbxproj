@@ -17,6 +17,7 @@
 		F34099B61D491F5E00B4D768 /* CellPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34099B41D491F5E00B4D768 /* CellPushViewController.m */; };
 		F34099B71D491F5E00B4D768 /* CellPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34099B51D491F5E00B4D768 /* CellPushViewController.xib */; };
 		F363898C1D4C69C300F9DAF9 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F363898B1D4C69C300F9DAF9 /* TabViewController.m */; };
+		F363898E1D4CF07800F9DAF9 /* jason.png in Resources */ = {isa = PBXBuildFile; fileRef = F363898D1D4CF07800F9DAF9 /* jason.png */; };
 		F385C0B61D476B46005951BE /* CocoaFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F385C0B51D476B46005951BE /* CocoaFoundationKit.m */; };
 		F385C0B91D476D44005951BE /* cocoaFoundationKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F385C0B81D476D44005951BE /* cocoaFoundationKitClass.m */; };
 		F3A1312F1D489C2B0067CF23 /* SeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1312E1D489C2B0067CF23 /* SeViewController.m */; };
@@ -76,6 +77,7 @@
 		F34099B51D491F5E00B4D768 /* CellPushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellPushViewController.xib; sourceTree = "<group>"; };
 		F363898A1D4C69C300F9DAF9 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		F363898B1D4C69C300F9DAF9 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		F363898D1D4CF07800F9DAF9 /* jason.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jason.png; sourceTree = "<group>"; };
 		F385C0B21D475309005951BE /* DataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataType.h; sourceTree = "<group>"; };
 		F385C0B31D475570005951BE /* Overview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Overview.h; sourceTree = "<group>"; };
 		F385C0B41D476B46005951BE /* CocoaFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaFoundationKit.h; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		F3A131361D48A5260067CF23 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				F363898D1D4CF07800F9DAF9 /* jason.png */,
 				F3F6B9811D49F0FB00A054CA /* 8836.jpg */,
 				F3F6B9831D49F10800A054CA /* 1@2x.png */,
 				F323D4961D49A4550063A8EA /* 1_24.jpg */,
@@ -404,6 +407,7 @@
 				F34099B71D491F5E00B4D768 /* CellPushViewController.xib in Resources */,
 				F3A1313F1D48C5920067CF23 /* SZTableViewCell.xib in Resources */,
 				F3F6B98F1D49F1B700A054CA /* IndexViewController.xib in Resources */,
+				F363898E1D4CF07800F9DAF9 /* jason.png in Resources */,
 				F3F6B9821D49F0FB00A054CA /* 8836.jpg in Resources */,
 				F3AA6D6D1D462A9E0033D88B /* LaunchScreen.storyboard in Resources */,
 				F3AA6D6A1D462A9E0033D88B /* Assets.xcassets in Resources */,
