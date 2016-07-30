@@ -22,6 +22,7 @@
 @implementation FourViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     [self ConfigUI];
     [self prepareDataSource];
@@ -161,6 +162,7 @@
 {
     NSLog(@"何舒展");
     CellPushViewController * cpvc = [[CellPushViewController alloc]init];
+//    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:cpvc];
     [self.navigationController pushViewController:cpvc animated:YES];
 }
 - (void)didReceiveMemoryWarning {

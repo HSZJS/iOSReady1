@@ -16,6 +16,7 @@
 		F34099B21D49192400B4D768 /* HDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34099B01D49192400B4D768 /* HDTableViewCell.xib */; };
 		F34099B61D491F5E00B4D768 /* CellPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34099B41D491F5E00B4D768 /* CellPushViewController.m */; };
 		F34099B71D491F5E00B4D768 /* CellPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34099B51D491F5E00B4D768 /* CellPushViewController.xib */; };
+		F363898C1D4C69C300F9DAF9 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F363898B1D4C69C300F9DAF9 /* TabViewController.m */; };
 		F385C0B61D476B46005951BE /* CocoaFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F385C0B51D476B46005951BE /* CocoaFoundationKit.m */; };
 		F385C0B91D476D44005951BE /* cocoaFoundationKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F385C0B81D476D44005951BE /* cocoaFoundationKitClass.m */; };
 		F3A1312F1D489C2B0067CF23 /* SeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1312E1D489C2B0067CF23 /* SeViewController.m */; };
@@ -73,6 +74,8 @@
 		F34099B31D491F5E00B4D768 /* CellPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPushViewController.h; sourceTree = "<group>"; };
 		F34099B41D491F5E00B4D768 /* CellPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPushViewController.m; sourceTree = "<group>"; };
 		F34099B51D491F5E00B4D768 /* CellPushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellPushViewController.xib; sourceTree = "<group>"; };
+		F363898A1D4C69C300F9DAF9 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		F363898B1D4C69C300F9DAF9 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		F385C0B21D475309005951BE /* DataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataType.h; sourceTree = "<group>"; };
 		F385C0B31D475570005951BE /* Overview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Overview.h; sourceTree = "<group>"; };
 		F385C0B41D476B46005951BE /* CocoaFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaFoundationKit.h; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				F3AA6D5E1D462A9E0033D88B /* main.m */,
+				F363898A1D4C69C300F9DAF9 /* TabViewController.h */,
+				F363898B1D4C69C300F9DAF9 /* TabViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				F3AA6D5F1D462A9E0033D88B /* main.m in Sources */,
 				F385C0B61D476B46005951BE /* CocoaFoundationKit.m in Sources */,
 				F3F6B98E1D49F1B700A054CA /* IndexViewController.m in Sources */,
+				F363898C1D4C69C300F9DAF9 /* TabViewController.m in Sources */,
 				F34099B11D49192400B4D768 /* HDTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

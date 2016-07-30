@@ -1,38 +1,27 @@
 //
-//  IndexViewController.m
+//  TabViewController.m
 //  iOSReady1
 //
-//  Created by 何舒展 on 16/7/28.
+//  Created by 何舒展 on 16/7/30.
 //  Copyright © 2016年 何舒展. All rights reserved.
 //
 
-#import "IndexViewController.h"
+#import "TabViewController.h"
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "SeViewController.h"
 #import "ThiViewController.h"
 #import "FourViewController.h"
-//#import "ReadyTabBarViewController "
-@interface IndexViewController ()
+@interface TabViewController ()
 
 @end
 
-@implementation IndexViewController
+@implementation TabViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    [self ConfigIndex];
-}
--(void)ConfigIndex
-{
-    NSLog(@"%@",NSHomeDirectory());
-    self.view = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];//获取屏幕大小
-    //a.初始化一个tabBar控制器
-    UITabBarController *tb=[[UITabBarController alloc]init];
-    //设置控制器为Window的根控制器
-//    self.view.inputViewController=tb;
-    //创建子控制器
+    [self.navigationController setHidesBarsOnSwipe:NO];
+    // Do any additional setup after loading the view.
     ViewController * v1 = [[ViewController alloc]init];
     
     v1.tabBarItem.title=@"视图一";
@@ -54,14 +43,12 @@
     UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:sbvc];
     nvc.tabBarItem.title=@"视图四";
     nvc.tabBarItem.image=[UIImage imageNamed:@"tab_buddy_nor"];
+    self.viewControllers=@[v1,smvc,mcvc,nvc];
+   
     
-    
-    tb.viewControllers = @[v1,smvc,mcvc,nvc];
-    
-        self.view .backgroundColor = [UIColor greenColor];//背景颜色
-    //创建一个标签栏视图控制器
-    [self.view addSubview:tb.view];
-    }
+
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -26,7 +26,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     //将登陆页面作为app的根视图
     LoginViewController * lvc = [[LoginViewController alloc]init];
-    self.window.rootViewController = lvc;
+    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:lvc];
+   
+    self.window.rootViewController = nvc;
 //    //a.初始化一个tabBar控制器
 //        UITabBarController *tb=[[UITabBarController alloc]init];
 //    //设置控制器为Window的根控制器

@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 #import <Masonry/Masonry.h>
+#import "IndexViewController.h"
+#import "TabViewController.h"
 //控制器，分别用于视图和模型直接交互，是mvc编程的核心内容
 //用来更新界面，用来跟新和读取数据
 @interface LoginViewController ()<UITextFieldDelegate>
@@ -20,6 +22,7 @@
     UIButton * lbutton;
     NSMutableArray * verifyCodeArray;//用来装验证码字符的数组
     NSArray * allUsers;//所有的用户
+    TabViewController * tab;
     int i ;
 }
 
@@ -62,6 +65,8 @@
     //添加倒计时按钮
     _daojishi = [UIButton new];
     _daojishi.backgroundColor = [UIColor blackColor];
+//    [_daojishi setTitle:@"倒计时按钮" forState:];
+//    [_daojishi setTitle:@"倒计时按钮" ];
     [_daojishi setTitle:@"倒计时按钮" forState:nil];
     [self.view addSubview:_daojishi];
     [_daojishi mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -92,7 +97,14 @@
 }
 -(void)loginButtonClick
 {
-    [self daojishiButton];
+//    [self daojishiButton];
+//    IndexViewController * ivc = [[IndexViewController alloc]init];
+      tab  = [[TabViewController alloc]init];
+//    UIViewController * vc = [[UIViewController alloc]init];
+//    UINavigationController * nvc = [[UINavigationController alloc]init];
+//    [self presentViewController:nvc animated:YES completion:nil];
+    [self presentViewController:tab animated:YES completion:nil];
+//    [nvc pushViewController:nvc1 animated:YES];
 }
 -(void)daojishiButton
 {
@@ -108,12 +120,15 @@
 {
     if (i==0) {
         [_daojishi setTitle:@"请重新登录" forState:nil];
+        
+       
     }
     else
     {
         i=i-1;
         NSString * time = [[NSString alloc]initWithFormat:@"%ds",i ];
         [_daojishi setTitle:time forState:nil];
+       
     }
 }
 
