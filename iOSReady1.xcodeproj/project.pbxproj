@@ -25,6 +25,7 @@
 		F3A131351D489C460067CF23 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A131341D489C460067CF23 /* FourViewController.m */; };
 		F3A1313E1D48C5920067CF23 /* SZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1313C1D48C5920067CF23 /* SZTableViewCell.m */; };
 		F3A1313F1D48C5920067CF23 /* SZTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A1313D1D48C5920067CF23 /* SZTableViewCell.xib */; };
+		F3A9D49C1D4DD2BD00EDB0CF /* 订单实现.gif in Resources */ = {isa = PBXBuildFile; fileRef = F3A9D49B1D4DD2BD00EDB0CF /* 订单实现.gif */; };
 		F3AA6D5F1D462A9E0033D88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D5E1D462A9E0033D88B /* main.m */; };
 		F3AA6D621D462A9E0033D88B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D611D462A9E0033D88B /* AppDelegate.m */; };
 		F3AA6D651D462A9E0033D88B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA6D641D462A9E0033D88B /* ViewController.m */; };
@@ -93,6 +94,7 @@
 		F3A1313B1D48C5920067CF23 /* SZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTableViewCell.h; sourceTree = "<group>"; };
 		F3A1313C1D48C5920067CF23 /* SZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTableViewCell.m; sourceTree = "<group>"; };
 		F3A1313D1D48C5920067CF23 /* SZTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZTableViewCell.xib; sourceTree = "<group>"; };
+		F3A9D49B1D4DD2BD00EDB0CF /* 订单实现.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "订单实现.gif"; sourceTree = "<group>"; };
 		F3AA6D5A1D462A9E0033D88B /* iOSReady1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReady1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AA6D5E1D462A9E0033D88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3AA6D601D462A9E0033D88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				F363898D1D4CF07800F9DAF9 /* jason.png */,
 				F3F6B9811D49F0FB00A054CA /* 8836.jpg */,
 				F3F6B9831D49F10800A054CA /* 1@2x.png */,
+				F3A9D49B1D4DD2BD00EDB0CF /* 订单实现.gif */,
 				F323D4961D49A4550063A8EA /* 1_24.jpg */,
 				F323D4941D49A43E0063A8EA /* 未命名.png */,
 			);
@@ -415,6 +418,7 @@
 				F34099B21D49192400B4D768 /* HDTableViewCell.xib in Resources */,
 				F323D4971D49A4550063A8EA /* 1_24.jpg in Resources */,
 				F3AA6D681D462A9E0033D88B /* Main.storyboard in Resources */,
+				F3A9D49C1D4DD2BD00EDB0CF /* 订单实现.gif in Resources */,
 				F323D4951D49A43E0063A8EA /* 未命名.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
